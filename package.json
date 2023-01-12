@@ -1,0 +1,26 @@
+{
+  "name": "playwright-new",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://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@github.com/vbhatt99/playwright-new.git",
+  "author": "vbhatt27qa <93911600+vbhatt27qa@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "yarn playwright test",
+    "test:chrome": "yarn playwright test --project=chromium",
+    "test:firefox": "yarn playwright test --project=firefox",
+    "test:safari": "yarn playwright test --project=webkit",
+    "debug": "yarn playwright test --debug",
+    "report": "yarn playwright show-report"
+  },
+  "dependencies": {
+    "14": "^1.0.1",
+    "16": "0.0.2",
+    "jest": "^29.3.1",
+    "node": "^19.3.0",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.29.2"
+  }
+}
